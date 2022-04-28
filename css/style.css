@@ -1,0 +1,124 @@
+html,body,header, #intro,#macarons,#cs{
+	height: 100%;
+
+}
+#intro{
+	background: url(../img/Macarons-3_wo_logo.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#macarons, #cs{
+	background: url(../img/macarons_page_main.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.top-nav-collapse{
+	background-color: #f57c00;
+
+}
+nav.container{
+	margin: auto;
+}
+
+a.orange-text {
+	text-shadow: 2px 2px black;
+}
+/*.animated-icon3 span:nth-child(1) {
+top: 0px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(2) {
+top: 10px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3 span:nth-child(3) {
+top: 20px;
+-webkit-transform-origin: left center;
+-moz-transform-origin: left center;
+-o-transform-origin: left center;
+transform-origin: left center;
+}
+
+.animated-icon3.open span:nth-child(1) {
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);
+top: 0px;
+left: 8px;
+}
+
+.animated-icon3.open span:nth-child(2) {
+width: 0%;
+opacity: 0;
+}
+
+.animated-icon3.open span:nth-child(3) {
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+transform: rotate(-45deg);
+top: 21px;
+left: 8px;
+}*/
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse){
+		background: #f57c00;
+	}
+}
+
+/*.icon {
+	display: inline;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 54px;
+	width: 64px;*/
+
+}
+
+/*img .cake-icon {
+	height: 60px;
+*/
+}
+/*img .cake-icon {
+	/*display: block;*/
+/*	height: 64px;
+	background: url(../img/svg/cake-icon.svg);
+	width: 60px;
+}*/
+*/
+.dessert-icon {
+	background: url(../img/svg/dessert-icon.svg);
+}
+.bakery-icon {
+	background: url(../img/svg/bakery-icon.svg);
+}
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+/*Macarons Page*/
+
+p.descr{
+	text-decoration-color: #ffffff;
+
+}
